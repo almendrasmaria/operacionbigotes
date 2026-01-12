@@ -3,8 +3,7 @@ import { LuQuote } from "react-icons/lu";
 const TestimonialCard = ({ name, handle, text, imageSrc }) => {
   return (
     <article
-      className="relative bg-white rounded-[24px] shadow-md overflow-hidden flex flex-row
-                 h-[340px] sm:h-[360px] md:h-[380px] lg:h-[420px]"
+      className="relative bg-white rounded-[24px] overflow-hidden flex flex-row h-[340px] sm:h-[360px] md:h-[380px] lg:h-[420px]"
     >
       <div className="flex-1 h-full px-6 py-8 md:px-8 md:py-10 flex flex-col justify-between">
         <LuQuote className="text-[#E78E4E] text-3xl" />
