@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Badge from "../../components/Badge";
+import Badge from "../../components/ui/Badge";
 import FaqItem from "../../components/FaqItem";
 
 const faqs = [

@@ -1,9 +1,9 @@
 import { useRoutes } from "react-router-dom";
-import HomePage from "../pages/HomePage";
+import Home from "../home/Page";
 
 const Rutas = () => {
   const element = useRoutes([
-    { path: "/", element: <HomePage /> },
+    { path: "/", element: <Home /> },
   ]);
 
   return element;

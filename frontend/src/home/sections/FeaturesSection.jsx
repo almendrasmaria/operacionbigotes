@@ -1,5 +1,5 @@
-import Badge from "../../components/Badge";
-import FeaturesList from "../../components/FeatureList";
+import Badge from "../../components/ui/Badge";
+import FeaturesList from "../../components/ui/FeatureList";
 
 const features = [
   {

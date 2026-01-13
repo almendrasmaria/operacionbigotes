@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
-import Hero from "../sections/home/Hero";
-import FeaturesSection from "../sections/home/FeaturesSection";
-import TestimonialsSection from "../sections/home/TestimonialsSection";
-import FaqSection from "../sections/home/FaqSection";
+import Hero from "./sections/Hero";
+import FeaturesSection from "./sections/FeaturesSection";
+import TestimonialsSection from "./sections/TestimonialsSection";
+import FaqSection from "./sections/FaqSection";
 import Footer from "../components/Footer";
 
-const HomePage = () => {
+const Page = () => {
   return (
     <>
       <Navbar />
@@ -20,5 +20,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
-
+export default Page;
