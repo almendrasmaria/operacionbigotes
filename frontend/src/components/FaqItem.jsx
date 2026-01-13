@@ -16,16 +16,16 @@ const FaqItem = ({ index, question, answer, isOpen, onToggle }) => {
             onClick={onToggle}
             className="flex w-full items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4"
           >
-            <span className="flex-1 text-left text-sm font-medium text-[#333] sm:text-base leading-relaxed">
+            <h2 className="text-left text-base sm:text-lg md:text-xl font-normal tracking-tight text-[#444]">
               {question}
-            </span>
+            </h2>
             <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#E5F4FF] text-[#3B82F6] text-sm">
               {isOpen ? <FiMinus /> : <FiPlus />}
             </span>
           </button>
 
           {isOpen && (
-            <div className="px-4 pb-4 text-xs text-[#555] sm:px-6 sm:text-sm">
+            <div className="px-4 pb-4 text-sm sm:text-base text-muted-foreground leading-relaxed sm:px-6 text-[#555]">
               {answer}
             </div>
           )}
