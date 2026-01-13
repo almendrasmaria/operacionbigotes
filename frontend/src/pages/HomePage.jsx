@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../sections/home/Hero";
 import FeaturesSection from "../sections/home/FeaturesSection";
 import TestimonialsSection from "../sections/home/TestimonialsSection";
+import FaqSection from "../sections/home/FaqSection";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Hero />
         <FeaturesSection />
         <TestimonialsSection />
+        <FaqSection />
       </main>
     </>
   );
