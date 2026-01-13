@@ -33,7 +33,7 @@ const FaqSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="max-w-5xl w-full mx-auto px-6 sm:px-4 pb-12 sm:pb-36">
+    <section className="w-full flex justify-center px-6 sm:px-4 pb-12 sm:pb-36">
       <section className="py-12 sm:py-16 lg:py-20">
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
