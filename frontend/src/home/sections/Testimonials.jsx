@@ -52,7 +52,7 @@ const testimonials = [
   },
 ];
 
-const TestimonialsSection = () => {
+const Testimonials = () => {
   const trackRef = useRef(null);
   const [perPage, setPerPage] = useState(3);
 
@@ -167,4 +167,4 @@ const TestimonialsSection = () => {
   );
 };
 
-export default TestimonialsSection;
+export default Testimonials;

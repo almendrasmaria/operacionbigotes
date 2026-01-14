@@ -1,6 +1,6 @@
 import { useRoutes } from "react-router-dom";
-import Home from "../home/Page";
-import GuidesPage from "../guides/Page";
+import Home from "../home/HomePage";
+import GuidesPage from "../guides/GuidesPage";
 
 const Rutas = () => {
   const element = useRoutes([

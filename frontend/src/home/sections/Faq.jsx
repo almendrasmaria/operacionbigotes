@@ -29,7 +29,7 @@ const faqs = [
   },
 ];
 
-const FaqSection = () => {
+const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
@@ -72,4 +72,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection;
+export default Faq;

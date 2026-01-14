@@ -30,7 +30,7 @@ const features = [
   },
 ];
 
-const FeaturesSection = () => {
+const Features = () => {
   return (
     <section className="max-w-5xl w-full mx-auto px-6 sm:px-4 pb-12 sm:pb-36 pt-12">
       <div className="block">
@@ -62,7 +62,7 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default Features;
 
 
 
